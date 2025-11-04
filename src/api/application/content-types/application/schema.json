@@ -1,0 +1,195 @@
+{
+  "kind": "collectionType",
+  "collectionName": "applications",
+  "info": {
+    "singularName": "application",
+    "pluralName": "applications",
+    "displayName": "Application"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": false
+    },
+    "email": {
+      "type": "email",
+      "required": false
+    },
+    "phone": {
+      "type": "string",
+      "required": false
+    },
+    "selectMethod": {
+      "type": "string",
+      "required": false
+    },
+    "description": {
+      "type": "text",
+      "required": false
+    },
+    "first_name": {
+      "type": "string",
+      "required": false
+    },
+    "middle_name": {
+      "type": "string"
+    },
+    "last_name": {
+      "type": "string"
+    },
+    "ssn": {
+      "type": "string"
+    },
+    "current_address": {
+      "type": "string"
+    },
+    "additional_address": {
+      "type": "string"
+    },
+    "state": {
+      "type": "string"
+    },
+    "zip_code": {
+      "type": "string"
+    },
+    "primary_phone": {
+      "type": "string"
+    },
+    "cell_phone": {
+      "type": "string"
+    },
+    "contact_email": {
+      "type": "email"
+    },
+    "contact_method": {
+      "type": "string"
+    },
+    "time_contact": {
+      "type": "string"
+    },
+    "job_alerts_consent": {
+      "type": "boolean"
+    },
+    "recruiting_alerts_consent": {
+      "type": "boolean"
+    },
+    "willing_team": {
+      "type": "string"
+    },
+    "drive_experience": {
+      "type": "string"
+    },
+    "cdla_drive_experience": {
+      "type": "string"
+    },
+    "support": {
+      "type": "string"
+    },
+    "legally_us": {
+      "type": "string"
+    },
+    "english_proficiency_public": {
+      "type": "string"
+    },
+    "illegal_drug_use_last_90_days": {
+      "type": "string"
+    },
+    "nearest_first_name": {
+      "type": "string"
+    },
+    "nearest_last_name": {
+      "type": "string"
+    },
+    "emergency_phone": {
+      "type": "string"
+    },
+    "emergency_address": {
+      "type": "string"
+    },
+    "emergency_state": {
+      "type": "string"
+    },
+    "emergency_city": {
+      "type": "string"
+    },
+    "emergency_zip_code": {
+      "type": "string"
+    },
+    "relationship": {
+      "type": "string"
+    },
+    "tractor_and_semitrailer": {
+      "type": "string"
+    },
+    "license_number": {
+      "type": "string"
+    },
+    "license_state": {
+      "type": "string"
+    },
+    "license_date": {
+      "type": "string"
+    },
+    "birthday": {
+      "type": "string"
+    },
+    "medical_expiration_date": {
+      "type": "string"
+    },
+    "current_driver_license": {
+      "type": "string"
+    },
+    "commercial_driver_license": {
+      "type": "string"
+    },
+    "license_class": {
+      "type": "string"
+    },
+    "endorsements": {
+      "type": "string"
+    },
+    "fmcsr_391_15_disqualified": {
+      "type": "string"
+    },
+    "pre_employment_drug_alcohol_test_refused_or_positive": {
+      "type": "string"
+    },
+    "convicted_dui_or_alcohol_offense_last_3_years": {
+      "type": "string"
+    },
+    "controlled_substance_dui_violation": {
+      "type": "string"
+    },
+    "controlled_substance_on_duty_violation": {
+      "type": "string"
+    },
+    "leaving_accident_scene_or_felony_involving_cmv": {
+      "type": "string"
+    },
+    "signature": {
+      "type": "string"
+    },
+    "today": {
+      "type": "string"
+    },
+    "equipments": {
+      "type": "component",
+      "component": "application.equipments",
+      "repeatable": true
+    },
+    "company": {
+      "type": "component",
+      "component": "application.company",
+      "repeatable": true
+    },
+    "driven_state": {
+      "type": "component",
+      "component": "application.driven-state",
+      "repeatable": true
+    }
+  }
+}

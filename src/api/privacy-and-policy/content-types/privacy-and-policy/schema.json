@@ -1,0 +1,23 @@
+{
+  "kind": "singleType",
+  "collectionName": "privacy_and_policies",
+  "info": {
+    "singularName": "privacy-and-policy",
+    "pluralName": "privacy-and-policies",
+    "displayName": "Privacy & Policy"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "text": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

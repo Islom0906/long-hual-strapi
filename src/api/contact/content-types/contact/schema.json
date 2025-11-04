@@ -1,0 +1,69 @@
+{
+  "kind": "singleType",
+  "collectionName": "contacts",
+  "info": {
+    "singularName": "contact",
+    "pluralName": "contacts",
+    "displayName": "Contact"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "main_office_address": {
+      "type": "string",
+      "required": true
+    },
+    "regional_office_address": {
+      "type": "string",
+      "required": true
+    },
+    "customers_phone": {
+      "type": "string",
+      "required": true
+    },
+    "customers_email": {
+      "type": "email",
+      "required": true
+    },
+    "drivers_phone": {
+      "type": "string",
+      "required": true
+    },
+    "driver_email": {
+      "type": "email",
+      "required": true
+    },
+    "instagram": {
+      "type": "string",
+      "required": true
+    },
+    "facebook": {
+      "type": "string",
+      "required": true
+    },
+    "twitter": {
+      "type": "string",
+      "required": true
+    },
+    "linkedin": {
+      "type": "string",
+      "required": true
+    },
+    "main_office": {
+      "type": "customField",
+      "customField": "plugin::geodata.geojson",
+      "options": {
+        "info": true
+      }
+    },
+    "regional_office": {
+      "type": "customField",
+      "customField": "plugin::geodata.geojson",
+      "options": {
+        "info": true
+      }
+    }
+  }
+}

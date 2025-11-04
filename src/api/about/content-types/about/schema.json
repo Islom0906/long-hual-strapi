@@ -1,0 +1,70 @@
+{
+  "kind": "singleType",
+  "collectionName": "abouts",
+  "info": {
+    "singularName": "about",
+    "pluralName": "abouts",
+    "displayName": "About"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "text": {
+      "type": "text",
+      "required": true
+    },
+    "benefits_text": {
+      "type": "component",
+      "component": "about.benefits-text",
+      "repeatable": true,
+      "required": true
+    },
+    "benefits_media": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "cavalry_title": {
+      "type": "string",
+      "required": true
+    },
+    "cavalry_text": {
+      "type": "text",
+      "required": true
+    },
+    "teams_title": {
+      "type": "string",
+      "required": true
+    },
+    "teams_text": {
+      "type": "text",
+      "required": true
+    },
+    "teams_card": {
+      "type": "component",
+      "component": "about.teams",
+      "repeatable": true,
+      "required": true
+    },
+    "join_team_title": {
+      "type": "string",
+      "required": true
+    },
+    "join_team_text": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

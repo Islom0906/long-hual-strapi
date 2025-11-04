@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_about_benefits_texts",
+  "info": {
+    "displayName": "Benefits text"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "text": {
+      "type": "text",
+      "required": true
+    }
+  },
+  "config": {}
+}

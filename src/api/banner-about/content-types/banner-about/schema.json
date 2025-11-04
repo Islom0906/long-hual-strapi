@@ -1,0 +1,39 @@
+{
+  "kind": "singleType",
+  "collectionName": "banner_abouts",
+  "info": {
+    "singularName": "banner-about",
+    "pluralName": "banner-abouts",
+    "displayName": "Banner and about section"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "banner_title": {
+      "type": "string",
+      "required": true
+    },
+    "banner_text": {
+      "type": "text",
+      "required": true
+    },
+    "about_title": {
+      "type": "string",
+      "required": true
+    },
+    "about_text": {
+      "type": "text",
+      "required": true
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "kind": "collectionType",
+  "collectionName": "drivers",
+  "info": {
+    "singularName": "driver",
+    "pluralName": "drivers",
+    "displayName": "Driver"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "navbar_title": {
+      "type": "string",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "text": {
+      "type": "text",
+      "required": true
+    },
+    "operator_title": {
+      "type": "string",
+      "required": true
+    },
+    "operator_text": {
+      "type": "text",
+      "required": true
+    },
+    "earning_title": {
+      "type": "string",
+      "required": true
+    },
+    "earning_text": {
+      "type": "text",
+      "required": true
+    },
+    "freight_title": {
+      "type": "string",
+      "required": true
+    },
+    "freight_text": {
+      "type": "text",
+      "required": true
+    },
+    "support_title": {
+      "type": "string",
+      "required": true
+    },
+    "support_text": {
+      "type": "text",
+      "required": true
+    },
+    "commitment_title": {
+      "type": "string",
+      "required": true
+    },
+    "commitment_text": {
+      "type": "text",
+      "required": true
+    },
+    "requirements": {
+      "type": "component",
+      "component": "drivers.text",
+      "repeatable": true,
+      "required": true
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "navbar_title",
+      "required": true
+    }
+  }
+}

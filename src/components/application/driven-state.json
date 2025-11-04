@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_application_driven_states",
+  "info": {
+    "displayName": "Driven state"
+  },
+  "options": {},
+  "attributes": {
+    "state": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

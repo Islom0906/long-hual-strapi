@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_application_companies",
+  "info": {
+    "displayName": "Company"
+  },
+  "options": {},
+  "attributes": {
+    "company_name": {
+      "type": "string"
+    },
+    "work_duration": {
+      "type": "string"
+    },
+    "position": {
+      "type": "string"
+    },
+    "operate_semitruck": {
+      "type": "string"
+    },
+    "company_address": {
+      "type": "string"
+    },
+    "company_phone": {
+      "type": "string"
+    },
+    "company_email": {
+      "type": "email"
+    },
+    "contact_person": {
+      "type": "string"
+    },
+    "reason_leave": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

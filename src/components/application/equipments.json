@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_application_equipments",
+  "info": {
+    "displayName": "Equipments"
+  },
+  "options": {},
+  "attributes": {
+    "equipments": {
+      "type": "string"
+    },
+    "duration": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}
