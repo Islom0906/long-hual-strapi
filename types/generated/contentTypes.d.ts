@@ -569,6 +569,7 @@ export interface ApiApplicationApplication extends Struct.CollectionTypeSchema {
     nearest_first_name: Schema.Attribute.String;
     nearest_last_name: Schema.Attribute.String;
     phone: Schema.Attribute.String;
+    position_type: Schema.Attribute.String;
     pre_employment_drug_alcohol_test_refused_or_positive: Schema.Attribute.String;
     primary_phone: Schema.Attribute.String;
     publishedAt: Schema.Attribute.DateTime;

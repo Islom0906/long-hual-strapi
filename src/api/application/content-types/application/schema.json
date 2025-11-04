@@ -190,6 +190,9 @@
       "type": "component",
       "component": "application.driven-state",
       "repeatable": true
+    },
+    "position_type": {
+      "type": "string"
     }
   }
 }
