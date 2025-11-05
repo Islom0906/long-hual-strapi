@@ -537,7 +537,6 @@ export interface ApiApplicationApplication extends Struct.CollectionTypeSchema {
     description: Schema.Attribute.Text;
     drive_experience: Schema.Attribute.String;
     driven_state: Schema.Attribute.Component<'application.driven-state', true>;
-    email: Schema.Attribute.Email;
     emergency_address: Schema.Attribute.String;
     emergency_city: Schema.Attribute.String;
     emergency_phone: Schema.Attribute.String;
@@ -565,17 +564,14 @@ export interface ApiApplicationApplication extends Struct.CollectionTypeSchema {
       Schema.Attribute.Private;
     medical_expiration_date: Schema.Attribute.String;
     middle_name: Schema.Attribute.String;
-    name: Schema.Attribute.String;
     nearest_first_name: Schema.Attribute.String;
     nearest_last_name: Schema.Attribute.String;
-    phone: Schema.Attribute.String;
     position_type: Schema.Attribute.String;
     pre_employment_drug_alcohol_test_refused_or_positive: Schema.Attribute.String;
     primary_phone: Schema.Attribute.String;
     publishedAt: Schema.Attribute.DateTime;
     recruiting_alerts_consent: Schema.Attribute.Boolean;
     relationship: Schema.Attribute.String;
-    selectMethod: Schema.Attribute.String;
     signature: Schema.Attribute.String;
     ssn: Schema.Attribute.String;
     state: Schema.Attribute.String;
@@ -634,6 +630,8 @@ export interface ApiContactContact extends Struct.SingleTypeSchema {
     draftAndPublish: true;
   };
   attributes: {
+    client_form_text: Schema.Attribute.Text & Schema.Attribute.Required;
+    client_form_title: Schema.Attribute.Text & Schema.Attribute.Required;
     createdAt: Schema.Attribute.DateTime;
     createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
@@ -642,6 +640,7 @@ export interface ApiContactContact extends Struct.SingleTypeSchema {
     driver_email: Schema.Attribute.Email & Schema.Attribute.Required;
     drivers_phone: Schema.Attribute.String & Schema.Attribute.Required;
     facebook: Schema.Attribute.String & Schema.Attribute.Required;
+    footer_text: Schema.Attribute.Text & Schema.Attribute.Required;
     instagram: Schema.Attribute.String & Schema.Attribute.Required;
     linkedin: Schema.Attribute.String & Schema.Attribute.Required;
     locale: Schema.Attribute.String & Schema.Attribute.Private;

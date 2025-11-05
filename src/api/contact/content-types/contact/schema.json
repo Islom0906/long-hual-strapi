@@ -64,6 +64,18 @@
       "options": {
         "info": true
       }
+    },
+    "footer_text": {
+      "type": "text",
+      "required": true
+    },
+    "client_form_title": {
+      "type": "text",
+      "required": true
+    },
+    "client_form_text": {
+      "type": "text",
+      "required": true
     }
   }
 }

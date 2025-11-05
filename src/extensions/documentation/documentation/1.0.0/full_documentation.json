@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2025-11-04T12:20:49.799Z"
+    "x-generation-date": "2025-11-05T04:37:32.179Z"
   },
   "x-strapi-config": {
     "plugins": [
@@ -7368,19 +7368,6 @@
           "data": {
             "type": "object",
             "properties": {
-              "name": {
-                "type": "string"
-              },
-              "email": {
-                "type": "string",
-                "format": "email"
-              },
-              "phone": {
-                "type": "string"
-              },
-              "selectMethod": {
-                "type": "string"
-              },
               "description": {
                 "type": "string"
               },
@@ -7613,19 +7600,6 @@
             "type": "number"
           },
           "documentId": {
-            "type": "string"
-          },
-          "name": {
-            "type": "string"
-          },
-          "email": {
-            "type": "string",
-            "format": "email"
-          },
-          "phone": {
-            "type": "string"
-          },
-          "selectMethod": {
             "type": "string"
           },
           "description": {
@@ -8095,19 +8069,6 @@
                   "type": "number"
                 },
                 "documentId": {
-                  "type": "string"
-                },
-                "name": {
-                  "type": "string"
-                },
-                "email": {
-                  "type": "string",
-                  "format": "email"
-                },
-                "phone": {
-                  "type": "string"
-                },
-                "selectMethod": {
                   "type": "string"
                 },
                 "description": {
@@ -9401,7 +9362,10 @@
               "instagram",
               "facebook",
               "twitter",
-              "linkedin"
+              "linkedin",
+              "footer_text",
+              "client_form_title",
+              "client_form_text"
             ],
             "type": "object",
             "properties": {
@@ -9439,6 +9403,15 @@
               },
               "main_office": {},
               "regional_office": {},
+              "footer_text": {
+                "type": "string"
+              },
+              "client_form_title": {
+                "type": "string"
+              },
+              "client_form_text": {
+                "type": "string"
+              },
               "locale": {
                 "type": "string"
               },
@@ -9507,7 +9480,10 @@
           "instagram",
           "facebook",
           "twitter",
-          "linkedin"
+          "linkedin",
+          "footer_text",
+          "client_form_title",
+          "client_form_text"
         ],
         "properties": {
           "id": {
@@ -9550,6 +9526,15 @@
           },
           "main_office": {},
           "regional_office": {},
+          "footer_text": {
+            "type": "string"
+          },
+          "client_form_title": {
+            "type": "string"
+          },
+          "client_form_text": {
+            "type": "string"
+          },
           "createdAt": {
             "type": "string",
             "format": "date-time"
@@ -9884,6 +9869,15 @@
                 },
                 "main_office": {},
                 "regional_office": {},
+                "footer_text": {
+                  "type": "string"
+                },
+                "client_form_title": {
+                  "type": "string"
+                },
+                "client_form_text": {
+                  "type": "string"
+                },
                 "createdAt": {
                   "type": "string",
                   "format": "date-time"

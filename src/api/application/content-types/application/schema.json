@@ -11,22 +11,6 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "name": {
-      "type": "string",
-      "required": false
-    },
-    "email": {
-      "type": "email",
-      "required": false
-    },
-    "phone": {
-      "type": "string",
-      "required": false
-    },
-    "selectMethod": {
-      "type": "string",
-      "required": false
-    },
     "description": {
       "type": "text",
       "required": false
