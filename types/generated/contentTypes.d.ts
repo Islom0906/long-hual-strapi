@@ -598,14 +598,21 @@ export interface ApiBannerAboutBannerAbout extends Struct.SingleTypeSchema {
     draftAndPublish: true;
   };
   attributes: {
+    about_media: Schema.Attribute.Media<
+      'images' | 'files' | 'videos' | 'audios'
+    > &
+      Schema.Attribute.Required;
     about_text: Schema.Attribute.Text & Schema.Attribute.Required;
     about_title: Schema.Attribute.String & Schema.Attribute.Required;
+    banner_media: Schema.Attribute.Media<
+      'images' | 'videos' | 'audios' | 'files'
+    > &
+      Schema.Attribute.Required;
     banner_text: Schema.Attribute.Text & Schema.Attribute.Required;
     banner_title: Schema.Attribute.String & Schema.Attribute.Required;
     createdAt: Schema.Attribute.DateTime;
     createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
-    image: Schema.Attribute.Media<'images'> & Schema.Attribute.Required;
     locale: Schema.Attribute.String & Schema.Attribute.Private;
     localizations: Schema.Attribute.Relation<
       'oneToMany',

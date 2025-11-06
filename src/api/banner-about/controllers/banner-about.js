@@ -16,8 +16,11 @@ module.exports = createCoreController('api::banner-about.banner-about', ({ strap
             query: {
                 ...ctx.query,
                 populate: {
-                    image: {
-                        fields: ['id', 'url'],
+                    banner_media: {
+                        fields: ['id', 'url','mime'],
+                    },
+                    about_media: {
+                        fields: ['id', 'url',"mime"],
                     },
                 },
             },
