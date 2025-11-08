@@ -7,7 +7,7 @@ export default {
 
         "app.components.LeftMenu.navbrand.workplace": "Admin Panel",
 
-        "Auth.form.welcome.title": "Welcom to admin panel ",
+        "Auth.form.welcome.title": "Welcome to admin panel ",
 
         "Auth.form.welcome.subtitle": "Login to your account",
 

@@ -664,6 +664,7 @@ export interface ApiContactContact extends Struct.SingleTypeSchema {
         }
       >;
     main_office_address: Schema.Attribute.String & Schema.Attribute.Required;
+    main_office_city: Schema.Attribute.String & Schema.Attribute.Required;
     publishedAt: Schema.Attribute.DateTime;
     regional_office: Schema.Attribute.JSON &
       Schema.Attribute.CustomField<
@@ -674,6 +675,7 @@ export interface ApiContactContact extends Struct.SingleTypeSchema {
       >;
     regional_office_address: Schema.Attribute.String &
       Schema.Attribute.Required;
+    regional_office_city: Schema.Attribute.String & Schema.Attribute.Required;
     twitter: Schema.Attribute.String & Schema.Attribute.Required;
     updatedAt: Schema.Attribute.DateTime;
     updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &

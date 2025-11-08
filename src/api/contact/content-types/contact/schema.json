@@ -76,6 +76,14 @@
     "client_form_text": {
       "type": "text",
       "required": true
+    },
+    "main_office_city": {
+      "type": "string",
+      "required": true
+    },
+    "regional_office_city": {
+      "type": "string",
+      "required": true
     }
   }
 }

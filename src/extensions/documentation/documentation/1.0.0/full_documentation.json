@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2025-11-06T10:01:41.378Z"
+    "x-generation-date": "2025-11-08T18:57:09.713Z"
   },
   "x-strapi-config": {
     "plugins": [
@@ -9636,7 +9636,9 @@
               "linkedin",
               "footer_text",
               "client_form_title",
-              "client_form_text"
+              "client_form_text",
+              "main_office_city",
+              "regional_office_city"
             ],
             "type": "object",
             "properties": {
@@ -9681,6 +9683,12 @@
                 "type": "string"
               },
               "client_form_text": {
+                "type": "string"
+              },
+              "main_office_city": {
+                "type": "string"
+              },
+              "regional_office_city": {
                 "type": "string"
               },
               "locale": {
@@ -9754,7 +9762,9 @@
           "linkedin",
           "footer_text",
           "client_form_title",
-          "client_form_text"
+          "client_form_text",
+          "main_office_city",
+          "regional_office_city"
         ],
         "properties": {
           "id": {
@@ -9804,6 +9814,12 @@
             "type": "string"
           },
           "client_form_text": {
+            "type": "string"
+          },
+          "main_office_city": {
+            "type": "string"
+          },
+          "regional_office_city": {
             "type": "string"
           },
           "createdAt": {
@@ -10147,6 +10163,12 @@
                   "type": "string"
                 },
                 "client_form_text": {
+                  "type": "string"
+                },
+                "main_office_city": {
+                  "type": "string"
+                },
+                "regional_office_city": {
                   "type": "string"
                 },
                 "createdAt": {

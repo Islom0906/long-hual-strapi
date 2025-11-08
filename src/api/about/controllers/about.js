@@ -14,7 +14,7 @@ module.exports = createCoreController('api::about.about', ({ strapi }) => ({
                 ...ctx.query,
                 populate: {
                     benefits_media: {
-                        fields: ['id', 'url'], // ✅ select emas, fields
+                        fields: ['id', 'url','mime'], // ✅ select emas, fields
                     },
                     benefits_text: {
                         fields: ['title', 'text'], // ✅ select emas, fields
@@ -22,7 +22,7 @@ module.exports = createCoreController('api::about.about', ({ strapi }) => ({
                     teams_card: {
                         populate: {
                             image: {
-                                fields: ['id', 'url'], // ✅ select emas, fields
+                                fields: ['id', 'url','mime'], // ✅ select emas, fields
                             },
                         },
                     },
