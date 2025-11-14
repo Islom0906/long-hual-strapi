@@ -4,7 +4,7 @@
   "info": {
     "singularName": "counter",
     "pluralName": "counters",
-    "displayName": "Counter"
+    "displayName": "4.Counter"
   },
   "options": {
     "draftAndPublish": true

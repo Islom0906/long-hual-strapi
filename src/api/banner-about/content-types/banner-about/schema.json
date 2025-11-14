@@ -4,7 +4,7 @@
   "info": {
     "singularName": "banner-about",
     "pluralName": "banner-abouts",
-    "displayName": "Banner and about section"
+    "displayName": "1.Banner and about section"
   },
   "options": {
     "draftAndPublish": true

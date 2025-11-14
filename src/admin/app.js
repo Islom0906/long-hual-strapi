@@ -1,6 +1,27 @@
 export default {
   config: {
-
+    menus: {
+      overrides: {
+        'content-type-builder': {
+          sectionLinks: [
+            'driver',
+            'service',
+            'news',
+            'testimonials',
+            'application',
+            'user-message',
+            'user',
+          ],
+          singleTypesLinks: [
+            'banner-and-about-section',
+            'about',
+            'contact',
+            'counter',
+            'privacy-policy',
+          ],
+        },
+      },
+    },
     translations: {
       en: {
         "app.components.LeftMenu.navbrand.title": "Admin Panel",

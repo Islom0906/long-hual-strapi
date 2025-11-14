@@ -470,7 +470,7 @@ export interface AdminUser extends Struct.CollectionTypeSchema {
 export interface ApiAboutAbout extends Struct.SingleTypeSchema {
   collectionName: 'abouts';
   info: {
-    displayName: 'About';
+    displayName: '2.About';
     pluralName: 'abouts';
     singularName: 'about';
   };
@@ -510,7 +510,7 @@ export interface ApiAboutAbout extends Struct.SingleTypeSchema {
 export interface ApiApplicationApplication extends Struct.CollectionTypeSchema {
   collectionName: 'applications';
   info: {
-    displayName: 'Application';
+    displayName: '5.Driver application';
     pluralName: 'applications';
     singularName: 'application';
   };
@@ -590,7 +590,7 @@ export interface ApiApplicationApplication extends Struct.CollectionTypeSchema {
 export interface ApiBannerAboutBannerAbout extends Struct.SingleTypeSchema {
   collectionName: 'banner_abouts';
   info: {
-    displayName: 'Banner and about section';
+    displayName: '1.Banner and about section';
     pluralName: 'banner-abouts';
     singularName: 'banner-about';
   };
@@ -629,7 +629,7 @@ export interface ApiBannerAboutBannerAbout extends Struct.SingleTypeSchema {
 export interface ApiContactContact extends Struct.SingleTypeSchema {
   collectionName: 'contacts';
   info: {
-    displayName: 'Contact';
+    displayName: '3.Contacts';
     pluralName: 'contacts';
     singularName: 'contact';
   };
@@ -686,7 +686,7 @@ export interface ApiContactContact extends Struct.SingleTypeSchema {
 export interface ApiCounterCounter extends Struct.SingleTypeSchema {
   collectionName: 'counters';
   info: {
-    displayName: 'Counter';
+    displayName: '4.Counter';
     pluralName: 'counters';
     singularName: 'counter';
   };
@@ -722,7 +722,7 @@ export interface ApiCounterCounter extends Struct.SingleTypeSchema {
 export interface ApiDriverDriver extends Struct.CollectionTypeSchema {
   collectionName: 'drivers';
   info: {
-    displayName: 'Driver';
+    displayName: '1.Driver pages';
     pluralName: 'drivers';
     singularName: 'driver';
   };
@@ -765,7 +765,7 @@ export interface ApiDriverDriver extends Struct.CollectionTypeSchema {
 export interface ApiNewNew extends Struct.CollectionTypeSchema {
   collectionName: 'news';
   info: {
-    displayName: 'News';
+    displayName: '3.News';
     pluralName: 'news';
     singularName: 'new';
   };
@@ -795,7 +795,7 @@ export interface ApiPrivacyAndPolicyPrivacyAndPolicy
   extends Struct.SingleTypeSchema {
   collectionName: 'privacy_and_policies';
   info: {
-    displayName: 'Privacy & Policy';
+    displayName: '5.Privacy & Policy';
     pluralName: 'privacy-and-policies';
     singularName: 'privacy-and-policy';
   };
@@ -824,7 +824,7 @@ export interface ApiPrivacyAndPolicyPrivacyAndPolicy
 export interface ApiServiceService extends Struct.CollectionTypeSchema {
   collectionName: 'services';
   info: {
-    displayName: 'Service';
+    displayName: '2.Service';
     pluralName: 'services';
     singularName: 'service';
   };
@@ -872,7 +872,7 @@ export interface ApiServiceService extends Struct.CollectionTypeSchema {
 export interface ApiTestimonialTestimonial extends Struct.CollectionTypeSchema {
   collectionName: 'testimonials';
   info: {
-    displayName: 'Testimonials';
+    displayName: '4.Testimonials';
     pluralName: 'testimonials';
     singularName: 'testimonial';
   };
@@ -903,7 +903,7 @@ export interface ApiTestimonialTestimonial extends Struct.CollectionTypeSchema {
 export interface ApiUserMessageUserMessage extends Struct.CollectionTypeSchema {
   collectionName: 'user_messages';
   info: {
-    displayName: 'User message';
+    displayName: '6.Customer applications';
     pluralName: 'user-messages';
     singularName: 'user-message';
   };
